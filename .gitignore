@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.local
+config/config.php
+
+# PHP
+vendor/
+composer.lock
+
+# Uploads
+uploads/videos/*
+uploads/thumbnails/*
+!uploads/videos/.gitkeep
+!uploads/thumbnails/.gitkeep
+
+# Storage
+storage/logs/*
+storage/temp/*
+storage/cache/*
+!storage/logs/.gitkeep
+!storage/temp/.gitkeep
+!storage/cache/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Database backups
+*.sql
+!database/schema.sql
+
+# Logs
+*.log
+
+# Sessions
+session/
+
+# Cache
+.cache/
+.htaccess
+config/local.php
